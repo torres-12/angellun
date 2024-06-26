@@ -1,0 +1,96 @@
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3f4aec; 
+        }
+        #container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #e9e787; 
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #006699; /* Color de hover */
+        }
+        #content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .article {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: #e26ce6;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .article img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        aside {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            background-color: #1076eb;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        aside form {
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #006699;
+            color: #56eef3;
+            border-radius: 8px;
+        }
+        footer marquee {
+            padding: 5px 0;
+        }
+
+        
+        @media (min-width: 768px) {
+            #container {
+                width: 80%;
+            }
+            .article {
+                width: 45%;
+                margin-right: 10px;
+            }
+            aside {
+                width: 30%;
+                margin-left: 10px;
+            }
+        }
+    
